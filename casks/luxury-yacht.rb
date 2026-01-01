@@ -6,7 +6,7 @@ cask "luxury-yacht" do
   version "v1.1.3"
 
   # arch arm: "arm64", intel: "amd64"
-  arch arm: "aarch64"
+  arch arm: "arm64"
   sha256 arm: "a8b168b9aa12f4fc923f5a727a1314ee17f483e3cf2fb083a6312ad0387f1de6"
          # intel: "REPLACE_WITH_AMD64_SHA256"
 
