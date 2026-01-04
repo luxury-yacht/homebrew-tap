@@ -3,12 +3,12 @@ cask "luxury-yacht" do
   desc "Luxury Yacht is a desktop app for managing Kubernetes clusters"
 
   app "Luxury Yacht.app"
-  version "v1.1.4"
+  version "v1.1.5"
 
   arch   arm: "arm64",
          intel: "amd64"
-  sha256 arm: "4b209d6f5eda78cb7cfe94a0dbe8793c15c18422fce84c4be984248c1091a079",
-         intel: "08e8ca30f1e8f6d8a6dbc740f7d258a7a59579eba51be2fff35fa4762d3f3dfe"
+  sha256 arm: "43c4c566099dc1ce6e8cc20ee370126843662c802e583a92ff9b81c0b72005ed",
+         intel: "30b0928ab9c5560df7e0b56dabb8a69e1546ac5995fd583de87d116b7f80807b"
 
   url "https://github.com/luxury-yacht/app/releases/download/#{version}/luxury-yacht-#{version}-macos-#{arch}.dmg",
     verified: "github.com/luxury-yacht/app/"
